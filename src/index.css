@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: #E5E5E5;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  width: 800px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #F55A5A;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header--image {
+  display: block;
+  width: 35px;
+  margin-right: 7px;
+}
+
+.header--title {
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: white;
+}
+
+.main-content {
+  background-color: white;
+  padding: 58px;
+}
+
+hr {
+  margin-top: 26px;
+  margin-bottom: 26px;
+  border-top: 2px solid #e2e2e2;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  color: #2B283A;
+}
+
+.item--image {
+  width: 182px;
+  height: 245px;
+  object-fit: cover;
+  border-radius: 7px;
+  margin-right: 28px;
+}
+
+.loc-group {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.map-pin {
+  width: 10px;
+  margin-right: 6px;
+}
+
+.location {
+  color: #2B283A;
+  text-transform: uppercase;
+  letter-spacing: 0.17em;
+  margin-right: 17px;
+}
+
+.maps-link {
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.item--title {
+  margin: 6px 0 10px 0;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.date-group {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 18px;
+}
